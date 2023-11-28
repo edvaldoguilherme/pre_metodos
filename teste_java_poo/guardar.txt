@@ -1,0 +1,140 @@
+            double valorbarbeiros=saldobarb1+saldobarb2+saldobarb3;
+            double saldoSemDescontos=saldoGerente+contacorte+valorProdutoSeparado+saldobarb1+saldobarb2+saldobarb3;
+            Double custoProdutos=valorProdutoSeparado-(count_prod1*valorCustoProd1)-(count_prod2*valorCustoProd2)-(valorProdutoSeparado*5/100);
+            double descontos=valorbarbeiros+custoProdutos;
+
+            saldoGerente=saldoGerente-descontos;
+
+            System.out.println("GERENTE:"+
+            "\nValor em caixa sem os descontos de custo: R$"+saldoSemDescontos+
+            "\na comissão dos barbeiros está nos valores de: Jorge-"+saldobarb1+" João-"+saldobarb2+" Paulo-"+saldobarb3+
+            "\nO valor de descontos de custo de produto+comissao de barbeiros é de R$"+descontos+
+            "seu saldo geral após este corte é de: R$"+saldoGerente);
+            
+
+
+
+            if(cont_cortes<10){
+                System.out.println("Olá "+" espero que esteja satisfeito com nosso servico :)\nA conta pelo seu corte geral pelo seu serviço é de: "+conta);
+                    if(escolhabarb==1){
+                        saldobarb1=saldobarb1+(contacorte/2)+(valorProdutoSeparado*5/100);
+                        System.out.println(barbeiro1+" este corte lhe rendeu R$"+contacorte/2+" e seu valor diário geral é de: R$"+saldobarb1+"\n\n\n\n");
+
+            double valorbarbeiros=saldobarb1+saldobarb2+saldobarb3;
+            double saldoSemDescontos=saldoGerente+contacorte+valorProdutoSeparado+saldobarb1+saldobarb2+saldobarb3;
+            Double custoProdutos=valorProdutoSeparado-(count_prod1*valorCustoProd1)-(count_prod2*valorCustoProd2)-(valorProdutoSeparado*5/100);
+            double descontos=valorbarbeiros+custoProdutos;
+
+            saldoGerente=saldoSemDescontos-descontos;
+
+            System.out.println("GERENTE:"+
+            "\nValor em caixa sem os descontos de custo: R$"+saldoSemDescontos+
+            "\na comissão dos barbeiros está nos valores de: Jorge-"+saldobarb1+" João-"+saldobarb2+" Paulo-"+saldobarb3+
+            "\nO valor de descontos de custo de produto+comissao de barbeiros é de R$"+descontos+
+            " seu saldo geral após este corte é de: R$"+saldoGerente);
+            
+                    }
+                    else if(escolhabarb==2){
+                        saldobarb2=saldobarb2+(contacorte/2)+(valorProdutoSeparado*5/100);
+                        System.out.println(barbeiro2+" este corte lhe rendeu R$"+contacorte/2+" e seu valor diário geral é de: R$"+saldobarb2+"\n\n\n\n");
+
+            double valorbarbeiros=saldobarb1+saldobarb2+saldobarb3;
+            double saldoSemDescontos=saldoGerente+contacorte+valorProdutoSeparado+saldobarb1+saldobarb2+saldobarb3;
+            Double custoProdutos=valorProdutoSeparado-(count_prod1*valorCustoProd1)-(count_prod2*valorCustoProd2)-(valorProdutoSeparado*5/100);
+            double descontos=valorbarbeiros+custoProdutos;
+
+            saldoGerente=saldoSemDescontos-descontos;
+
+            System.out.println("GERENTE:"+
+            "\nValor em caixa sem os descontos de custo: R$"+saldoSemDescontos+
+            "\na comissão dos barbeiros está nos valores de: Jorge-"+saldobarb1+" João-"+saldobarb2+" Paulo-"+saldobarb3+
+            "\nO valor de descontos de custo de produto+comissao de barbeiros é de R$"+descontos+
+            " seu saldo geral após este corte é de: R$"+saldoGerente);
+            
+                        
+                    }
+                    else if(escolhabarb==3){
+                        saldobarb3=saldobarb3+(contacorte/2)+(valorProdutoSeparado*5/100);
+                        System.out.println(barbeiro3+" este corte lhe rendeu R$"+contacorte/2+" e seu valor diário geral é de: R$"+saldobarb3+"\n\n\n\n");
+
+            double valorbarbeiros=saldobarb1+saldobarb2+saldobarb3;
+            double saldoSemDescontos=saldoGerente+contacorte+valorProdutoSeparado+saldobarb1+saldobarb2+saldobarb3;
+            Double custoProdutos=valorProdutoSeparado-(count_prod1*valorCustoProd1)-(count_prod2*valorCustoProd2)-(valorProdutoSeparado*5/100);
+            double descontos=valorbarbeiros+custoProdutos;
+
+            saldoGerente=saldoSemDescontos-descontos;
+
+            System.out.println("GERENTE:"+
+            "\nValor em caixa sem os descontos de custo: R$"+saldoSemDescontos+
+            "\na comissão dos barbeiros está nos valores de: Jorge-"+saldobarb1+" João-"+saldobarb2+" Paulo-"+saldobarb3+
+            "\nO valor de descontos de custo de produto+comissao de barbeiros é de R$"+descontos+
+            " seu saldo geral após este corte é de: R$"+saldoGerente);
+            
+                        
+                    }
+
+            }
+            else{
+                        if(escolhabarb==1){
+                        contacorte=0;
+                        saldobarb1=saldobarb1+valorProdutoSeparado*5/100;
+                        System.out.println(barbeiro1+" este corte lhe rendeu R$"+contacorte/2+" e seu valor diário geral é de: R$"+saldobarb1+"\n\n\n\n");
+
+            double valorbarbeiros=saldobarb1+saldobarb2+saldobarb3;
+            double saldoSemDescontos=saldoGerente+contacorte+valorProdutoSeparado+saldobarb1+saldobarb2+saldobarb3;
+            Double custoProdutos=valorProdutoSeparado-(count_prod1*valorCustoProd1)-(count_prod2*valorCustoProd2)-(valorProdutoSeparado*5/100);
+            double descontos=valorbarbeiros+custoProdutos;
+
+            saldoGerente=saldoSemDescontos-descontos;
+
+            System.out.println("GERENTE:"+
+            "\nValor em caixa sem os descontos de custo: R$"+saldoSemDescontos+
+            "\na comissão dos barbeiros está nos valores de: Jorge-"+saldobarb1+" João-"+saldobarb2+" Paulo-"+saldobarb3+
+            "\nO valor de descontos de custo de produto+comissao de barbeiros é de R$"+descontos+
+            " seu saldo geral após este corte é de: R$"+saldoGerente);
+            
+                    }
+                    else if(escolhabarb==2){
+                        contacorte=0;
+                        saldobarb2=saldobarb2+valorProdutoSeparado*5/100;
+                        System.out.println(barbeiro2+" este corte lhe rendeu R$"+contacorte/2+" e seu valor diário geral é de: R$"+saldobarb2+"\n\n\n\n");
+
+            double valorbarbeiros=saldobarb1+saldobarb2+saldobarb3;
+            double saldoSemDescontos=saldoGerente+contacorte+valorProdutoSeparado+saldobarb1+saldobarb2+saldobarb3;
+            Double custoProdutos=valorProdutoSeparado-(count_prod1*valorCustoProd1)-(count_prod2*valorCustoProd2)-(valorProdutoSeparado*5/100);
+            double descontos=valorbarbeiros+custoProdutos;
+
+            saldoGerente=saldoSemDescontos-descontos;
+
+            System.out.println("GERENTE:"+
+            "\nValor em caixa sem os descontos de custo: R$"+saldoSemDescontos+
+            "\na comissão dos barbeiros está nos valores de: Jorge-"+saldobarb1+" João-"+saldobarb2+" Paulo-"+saldobarb3+
+            "\nO valor de descontos de custo de produto+comissao de barbeiros é de R$"+descontos+
+            " seu saldo geral após este corte é de: R$"+saldoGerente);
+            
+                        
+                    }
+                    else if(escolhabarb==3){
+                        contacorte=0;
+                        saldobarb3=saldobarb3+valorProdutoSeparado*5/100;
+                        System.out.println(barbeiro3+" este corte lhe rendeu R$"+contacorte/2+" e seu valor diário geral é de: R$"+saldobarb3+"\n\n\n\n");
+            double valorbarbeiros=saldobarb1+saldobarb2+saldobarb3;
+            double saldoSemDescontos=saldoGerente+contacorte+valorProdutoSeparado+saldobarb1+saldobarb2+saldobarb3;
+            Double custoProdutos=valorProdutoSeparado-(count_prod1*valorCustoProd1)-(count_prod2*valorCustoProd2)-(valorProdutoSeparado*5/100);
+            double descontos=valorbarbeiros+custoProdutos;
+
+            saldoGerente=saldoSemDescontos-descontos;
+
+            System.out.println("GERENTE:"+
+            "\nValor em caixa sem os descontos de custo: R$"+saldoSemDescontos+
+            "\na comissão dos barbeiros está nos valores de: Jorge-"+saldobarb1+" João-"+saldobarb2+" Paulo-"+saldobarb3+
+            "\nO valor de descontos de custo de produto+comissao de barbeiros é de R$"+descontos+
+            " seu saldo geral após este corte é de: R$"+saldoGerente);
+            
+                        
+                    }
+
+            }
+
+            System.out.println("seu estoque de Minoxidil contem: "+estoqueMinoxidil+" unidades");
+            System.out.println("seu estoque de Creme contem: "+estoqueCreme+" unidades");
